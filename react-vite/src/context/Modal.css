@@ -1,0 +1,35 @@
+#modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#modal-background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#modal-content {
+  position: absolute;
+  background-color:#131517;
+  padding: 50px 25px;
+  border-radius: 5px;
+}
+
+::placeholder {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  font-style: normal;
+  padding: 10px;
+  color: white;
+}

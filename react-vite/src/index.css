@@ -1,0 +1,445 @@
+/* theme colors */
+.white {
+  background-color: #F8F9FA;
+}
+
+.lightGrey {
+  background-color: #6C757D;
+}
+
+.darkGrey {
+  background-color: #343A40;
+  color: white;
+}
+
+.lightPurple {
+  background-color: #BDA8FF;
+}
+
+.purple {
+  background-color: #6F42C1;
+}
+
+.darkPurple {
+  background-color: #432874;
+  color: white;
+}
+
+.almostBlack {
+  background-color: #131517;
+}
+
+.black {
+  background-color: #0b0b0b;
+
+}
+
+.noBackground {
+  background: transparent;
+}
+
+.blackBackground {
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+  min-height: 830px;
+  background-color: #0b0b0b;
+}
+
+/* font */
+.font {
+  font-family: "Varela Round", sans-serif;
+  font-style: normal;
+}
+
+.fontLight {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.fontLight:hover {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #432874;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.active-filter {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #432874 !important;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.redFont:hover {
+  color: rgb(118, 0, 0);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.activeLink {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #432874;
+  text-decoration: underline;
+}
+
+/* font weight */
+.bold {
+  font-weight: 600;
+}
+
+/* font colors */
+.whiteFont {
+  color: #F8F9FA;
+}
+.center{
+  text-align: center;
+}
+
+.purpleFont {
+  color: #6F42C1;
+}
+
+.lightGreyFont {
+  color: #6C757D;
+}
+
+.yellowFont {
+  color: #fbc328
+}
+
+.almostBlackFont {
+  color: #131517;
+}
+.IsPostiveText{
+  font-size: 20px;
+}
+
+
+.redFont {
+  color: rgb(181, 0, 0)
+}
+
+/* font sizes */
+.xx-largeFont {
+  font-size: xx-large;
+}
+
+.x-largeFont {
+  font-size: x-large;
+}
+
+.largeFont {
+  font-size: large;
+}
+
+.mediumFont {
+  font-size: medium;
+}
+
+.smallFont {
+  font-size: small;
+}
+
+.x-smallFont {
+  font-size: x-small;
+}
+
+.xx-smallFont {
+  font-size: xx-small;
+}
+
+/* margins and paddings */
+.noMargin {
+  margin: 0px;
+}
+
+.fullPadding {
+  padding: 5%
+}
+
+.littlePadding {
+  padding: 5px;
+}
+
+.littleMargin {
+  margin: 5px;
+}
+
+.largeLeftMargin {
+  margin-left: 40px;
+}
+
+.leftMargin {
+  margin-left: 25px;
+}
+
+.littleLeftMargin {
+  margin-left: 5px;
+}
+
+.leftPageBorder {
+  margin-left: 50px;
+}
+
+.littleRightMargin {
+  margin-right: 5px;
+}
+
+.rightMargin {
+  margin-right: 25px;
+}
+
+.largeRightMargin {
+  margin-right: 40px;
+}
+
+.rightPageBorder {
+  margin-right: 50px;
+}
+
+.littleTopMargin {
+  margin-top: 5px;
+}
+
+.littleBottomMargin {
+  margin-bottom: 5px;
+}
+
+.bottomMargin {
+  margin-bottom: 10px;
+}
+
+.largeBottomMargin {
+  margin-bottom: 25px;
+}
+
+.noPadding {
+  padding: 0px;
+}
+
+.largeRightPadding {
+  padding-right: 35px;
+}
+
+.rightPadding {
+  padding-right: 25px;
+}
+
+.littleMoreRightPadding {
+  padding-right: 15px;
+}
+
+.littleRightPadding {
+  padding-right: 5px;
+}
+
+.littleLeftPadding {
+  padding-left: 5px;
+}
+
+.topPadding {
+  padding-top: 10px;
+}
+
+.littleTopPadding {
+  padding-top: 5px;
+}
+
+.littleBottomPadding {
+  padding-bottom: 5px;
+}
+
+.bottomPageBorder {
+  margin-bottom: 50px;
+}
+
+/* general sizing */
+.halfScreen {
+  width: 50%;
+}
+
+
+.quarterScreen {
+  width: 25%;
+  height: 100%;
+}
+
+.fullWidth {
+  width: 100%;
+}
+
+.widthAuto {
+  width: auto;
+}
+
+.homeScreen{
+  height: 100%;
+  min-height: 200px;
+}
+
+/* misc items */
+.positionRelative {
+  position: relative;
+}
+
+.testBorder {
+  border: 1px solid red;
+}
+
+.roundedCorners {
+  border-radius: 3px;
+}
+
+.fullScreenPercent {
+  height: 100%;
+}
+
+.fullScreenVh {
+  height: 100vh;
+}
+
+.dropShadow {
+  box-shadow: 2px 2px 10px #343A40;
+}
+
+.lightDropShadow {
+  box-shadow: 2px 2px 10px #5b5b5b;
+}
+
+.noBorder {
+  border: none;
+}
+
+.mouseOver {
+  cursor: pointer;
+}
+
+.logo {
+  height: 75px;
+}
+
+.smallLogo {
+  height: 50px;
+}
+
+.removeDecorations {
+  list-style-type: none;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+.flexEnd{
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+.spaceBetween {
+  justify-content: space-between;
+}
+.spaceEvenly{
+  padding-top: 15px;
+  justify-content: space-evenly;
+}
+
+.alignCenter {
+  align-items: center;
+}
+
+.alignBottom {
+  align-items: flex-end;
+}
+
+.displayBlock {
+  display: block;
+}
+
+.displayInline {
+  display: inline;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.justifyCenter {
+  justify-items: center;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.justifyEnd {
+  justify-items: end;
+}
+
+/* base set up page stylings */
+body {
+  margin: 0;
+}
+
+.frontPage ::placeholder {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  font-style: normal;
+  padding: 10px;
+  color: #6F42C1;
+}
+
+button {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  font-style: normal;
+  color: #F8F9FA;
+  background-color: #BDA8FF;
+  padding: 10px 15px;
+  margin: 5px 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+  font-style: normal;
+  color: #F8F9FA;
+  background-color: #432874;
+  padding: 10px 15px;
+  margin: 5px 0px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* temporary stylings */
+.itemDashboard {
+  width: 75%;
+}
+
+.topLayer {
+  z-index: 99;
+}
