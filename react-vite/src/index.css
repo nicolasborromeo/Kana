@@ -443,3 +443,10 @@ button:hover {
 .topLayer {
   z-index: 99;
 }
+
+
+
+/* SPECIFIC PER ELEMENT*/
+.task_title {
+  margin-left: 14px;
+}

@@ -34,7 +34,7 @@ function UserRewards({ sessionUser }) {
 
     return (
         <>
-            <div className="displayFlex alignBottom spaceBetween">
+            <div className="displayFlex alignBottom spaceBetween task_title" style={{marginTop:'0'}}>
                 <h2 className="font purpleFont">Rewards</h2>
 
                 <div className="displayFlex littlePadding">

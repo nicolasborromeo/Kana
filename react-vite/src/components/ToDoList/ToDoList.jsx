@@ -38,7 +38,7 @@ function ToDoList(userId) {
 
   if (isLoaded) return (
     <>
-      <div className='displayFlex alignBottom spaceBetween'>
+      <div className='displayFlex alignBottom spaceBetween task_title'>
         <h2 className='font purpleFont'>To-Dos</h2>
 
         <div className='displayFlex littlePadding'>

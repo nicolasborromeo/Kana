@@ -47,7 +47,7 @@ function Habits(userId){
 
     if(isLoaded)return (
     <>
-        <div className='displayFlex alignBottom spaceBetween'>
+        <div className='displayFlex alignBottom spaceBetween task_title'>
             <h2 className="font purpleFont">Habits</h2>
         </div>
 
