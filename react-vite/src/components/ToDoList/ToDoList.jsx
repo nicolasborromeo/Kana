@@ -17,7 +17,7 @@ function ToDoList(userId) {
   }, [dispatch, userId, setIsLoaded])
 
   const openModal = (e, id) => {
-    if(e.target.tagName !== 'INPUT' || e.target.type !== 'checkbox') {
+    if (e.target.tagName !== 'INPUT' || e.target.type !== 'checkbox') {
       const task = todos.objTodos[id]
       setModalContent(<TaskEditModal taskType='Todo' task={task} />)
     }
@@ -29,12 +29,12 @@ function ToDoList(userId) {
     const checked = e.target.checked
     console.log(checked)
     const updatedTask = {
-        ...todos.objTodos[taskId],
-        completed: checked
+      ...todos.objTodos[taskId],
+      completed: checked
     };
     console.log('updatedTask,', updatedTask)
     dispatch(thunkUpdateTodo(taskId, updatedTask))
-}
+  }
 
   if (isLoaded) return (
     <>
@@ -43,17 +43,19 @@ function ToDoList(userId) {
 
         <div className='displayFlex littlePadding'>
           {/* onclick filter the current task list */}
-          <p onClick={()=> setCompleted(false)} className={`fontLight whiteFont smallFont littlePadding ${!completed ? 'active-filter' :''}`}>Active</p>
-          <p onClick={()=> setCompleted(true)} className={`fontLight whiteFont smallFont littlePadding ${completed ? 'active-filter' : ''}`}>Completed</p>
+          <p onClick={() => setCompleted(false)} className={`fontLight whiteFont smallFont littlePadding ${!completed ? 'active-filter' : ''}`}>Active</p>
+          <p onClick={() => setCompleted(true)} className={`fontLight whiteFont smallFont littlePadding ${completed ? 'active-filter' : ''}`}>Completed</p>
         </div>
       </div>
 
       {/* individual tasks */}
       <div className='displayFlex flexColumn littlePadding littleMargin'>
         {todos.arrTodos?.filter(todo => todo.completed === completed).map(({ id, completed, title, difficulty, dueDate, notes }) => (
-          <div key={id}
+          <div
+            key={id}
             onClick={(e) => openModal(e, id)}
-            className='displayFlex flexColumn darkGrey littleMargin roundedCorners'>
+            className='displayFlex flexColumn darkGrey littleMargin roundedCorners task_detail_container'
+          >
             <div className='displayFlex spaceBetween alignCenter'>
               <label>
                 <input
@@ -65,7 +67,7 @@ function ToDoList(userId) {
                 />
               </label>
 
-              <p className='whiteFont font smallFont'>{title}</p>
+              <p className='whiteFont font smallFont task_title'>{title}</p>
             </div>
 
             <div className='displayFlex spaceBetween'>

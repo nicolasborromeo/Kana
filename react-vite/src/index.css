@@ -449,4 +449,20 @@ button:hover {
 /* SPECIFIC PER ELEMENT*/
 .task_title {
   margin-left: 14px;
+  white-space: nowrap;
+}
+
+.task_table_container{
+  border-radius: 10px !important;
+}
+
+.task_detail_container {
+  border-radius: 8px !important;
+  padding: 10px;
+}
+
+.task_title {
+  text-align: left;
+  width: 100%;
+  white-space: wrap;
 }

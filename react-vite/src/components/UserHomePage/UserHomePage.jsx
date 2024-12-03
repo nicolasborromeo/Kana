@@ -46,23 +46,23 @@ function UserHomePage() {
         <div className="displayFlex spaceBetween rightPageBorder leftPageBorder">
 
           {/* Habits Table */}
-          <div className="almostBlack quarterScreen roundedCorners littleRightMargin">
+          <div className="almostBlack quarterScreen roundedCorners littleRightMargin  task_table_container">
             <Habits userId={sessionUser.id}/>
           </div>
 
           {/* Dailies Table */}
-          <div className="almostBlack quarterScreen roundedCorners littleRightMargin">
+          <div className="almostBlack quarterScreen roundedCorners littleRightMargin task_table_container">
            <Dailies userId={sessionUser.id}/>
           </div>
 
           {/* To-Dos Table */}
-          <div className="almostBlack quarterScreen roundedCorners littleRightMargin">
+          <div className="almostBlack quarterScreen roundedCorners littleRightMargin task_table_container">
             <ToDoList userId={sessionUser.id} />
           </div>
 
           {/* Rewards Table */}
-          <div className="almostBlack quarterScreen roundedCorners">
-            <p className="whiteFont"><UserRewards sessionUser={sessionUser}/></p>
+          <div className="almostBlack quarterScreen roundedCorners task_table_container">
+           <UserRewards sessionUser={sessionUser}/>
           </div>
         </div>
 
