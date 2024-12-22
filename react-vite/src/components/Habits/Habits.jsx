@@ -84,7 +84,6 @@ function Habits(userId) {
                             <div className='lightGreyFont font smallFont paddHabit'>{difficulty}</div>
                             <div className='lightGreyFont font smallFont paddHabit notes'>{notes}</div>
                         </div>
-
                     </div>
                 ))}
             </div>
